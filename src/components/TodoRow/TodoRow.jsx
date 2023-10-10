@@ -2,7 +2,7 @@ import "./TodoRow.scss";
 import trashButton from "../../assets/trash.svg";
 import checkBox from "../../assets/checkBox.svg";
 
-export default function TodoRow({ text }) {
+export default function TodoRow({ text, onRemove }) {
   return (
     <div className="todoRow">
       <div className="checkboxAndTextContainer">
@@ -10,7 +10,12 @@ export default function TodoRow({ text }) {
         <p>{text}</p>
       </div>
       <div className="trashContainer">
-        <img className="trash" src={trashButton} alt="trashButton" />
+        <img
+          className="trash"
+          src={trashButton}
+          alt="trashButton"
+          onClick={onRemove}
+        />
       </div>
     </div>
   );
