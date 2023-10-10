@@ -1,8 +1,35 @@
 .landing {
-  background-color: blue;
+  background: linear-gradient(#3f6bc0, #3fb1c0);
   color: white;
   height: 100vh;
+  width: 100%;
+  margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landingContainer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
+}
+
+.landingHeaderText {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.ahaLogo {
+  font-size: 76px;
+  line-height: 76px;
+}
+
+.sunLogo {
+  width: 276.44px;
+  height: 276.44px;
 }
