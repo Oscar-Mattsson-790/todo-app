@@ -1,0 +1,21 @@
+@import "../../scss/typography";
+
+.todoRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.checkboxAndTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+.trash {
+  margin-left: 200px;
+}
+
+.checkBox {
+  margin-right: 5px;
+}
