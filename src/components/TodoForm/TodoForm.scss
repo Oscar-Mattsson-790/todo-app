@@ -1,0 +1,33 @@
+@import "../../scss/variables";
+
+.TodoForm {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  padding: 10px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  width: 20%;
+  height: 64px;
+  background-color: #3fc08a;
+  padding: 20px;
+}
+
+.inputTodo {
+  background-color: $black;
+  font-size: 26px;
+  color: $white;
+  width: 80%;
+  height: 64px;
+  padding: 16px;
+}
