@@ -1,0 +1,16 @@
+@import "../../scss/variables";
+
+.todoNavbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $babyBlue;
+  width: 390px;
+  height: 64px;
+}
+
+.ahaLogoNavbar {
+  width: 61px;
+  height: 26px;
+  align-items: center;
+}
