@@ -1,8 +1,8 @@
-import "../TodoListPage/TodoListPage.scss";
 import TodoNavbar from "../../components/TodoNavbar/TodoNavbar";
 import TodoList from "../../components/TodoList/TodoList";
 import TodoForm from "../../components/TodoForm/TodoForm";
 import { useState } from "react";
+import "./TodoListPage.scss";
 
 function TodoListPage() {
   const [todos, setTodos] = useState(["Todo Text"]);
