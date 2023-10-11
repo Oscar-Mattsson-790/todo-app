@@ -1,4 +1,4 @@
-import "./TodoListPage.scss";
+import "../TodoListPage/TodoListPage.scss";
 import TodoNavbar from "../../components/TodoNavbar/TodoNavbar";
 import TodoList from "../../components/TodoList/TodoList";
 import TodoForm from "../../components/TodoForm/TodoForm";
